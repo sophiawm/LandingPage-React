@@ -1,9 +1,9 @@
-//import React, { useState } from 'react';
-//import staff from '../staffData.json';
-//import { useEffect } from 'react';
+import React, { useState } from 'react';
+import staff from '../staffData.json';
+import { useEffect } from 'react';
 
 
-const StaffProfile = () =>  {
+const TeamFooter = () =>  {
     const workersProfiles = [
         {
             name: 'Mel Loren',
