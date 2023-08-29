@@ -1,12 +1,12 @@
-import StaffProfile from '/components/StaffProfile.jsx';
+import Header from './components/header.jsx';
+import CallToAction from './components/calltoaction.jsx';
 import './App.css';
-import Header from '/components/Header.jsx';
 
 function App() {
   return (
     <>
     <Header />
-    <StaffProfile />
+    <CallToAction />
     </>
   )
 }
